@@ -6,4 +6,4 @@ problemId=$1
 
 rm ${problemId}-*/*~
 git add ${problemId}-*/
-git commit -m "\"My solution to problem ${problemId}.\""
+git commit -m "My solution to problem ${problemId}."
