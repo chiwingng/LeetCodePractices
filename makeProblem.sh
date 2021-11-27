@@ -6,7 +6,8 @@ problemId=$1
 problemTitle=$2
 
 if [[ "$problemId" = "-h" ]]; then
-  echo "Usage of this script: "$0" [problemId] [problemTitle]."
+    echo "Usage of this script: "$0" [problemId] [problemTitle]."
+    exit 0
 fi
 
 mkdir -p ${problemId}-${problemTitle}/
