@@ -20,12 +20,12 @@ Given the `root` of the binary tree, return the *maximum amount of money the thi
 ### Example 1
 
 > **Input**: root = [3,2,3,null,3,null,1]  
-> **Output**: 7
+> **Output**: 7  
 > **Tree Diagram**: 3  
->                  / \  
->                 2   3  
->                  \   \  
->                   3   1  
+>       /  \  
+>      2    3  
+>       \    \  
+>        3    1  
 > **Explanation**: Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
 
 ### Example 2
@@ -33,8 +33,8 @@ Given the `root` of the binary tree, return the *maximum amount of money the thi
 > **Input**: root = [3,4,5,1,3,null,1]  
 > **Output**: 9  
 > **Tree Diagram**: 3  
->                  / \  
->                 4   5  
->                / \   \  
->               1   3   1  
+>       /  \  
+>      4    5  
+>     / \    \  
+>    1   3    1  
 > **Explanation**: Maximum amount of money the thief can rob = 4 + 5 = 9.  
