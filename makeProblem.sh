@@ -24,6 +24,18 @@ echo "## Description" >> $readmefile
 echo  >> $readmefile
 echo  >> $readmefile
 echo  >> $readmefile
+echo "## Solution Thoughts" >> $readmefile
+echo  >> $readmefile
+echo "### Observations" >> $readmefile
+echo  >> $readmefile
+echo "### Logic" >> $readmefile
+echo  >> $readmefile
+echo "### Complexities" >> $readmefile
+echo  >> $readmefile
+echo "- **Time Complexity**" >> $readmefile
+echo  >> $readmefile
+echo "- **Space Complexity**" >> $readmefile
+echo  >> $readmefile
 echo "## Constraints" >> $readmefile
 echo  >> $readmefile
 echo  >> $readmefile
