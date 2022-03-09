@@ -4,6 +4,11 @@
 
 problemId=$1
 problemTitle=$2
+nExamples=$3
+
+if [ "$nExamples" = "" ]; then
+    nExamples=1
+fi
 
 if [[ "$problemId" = "-h" ]]; then
     echo "Usage of this script: "$0" [problemId] [problemTitle]."
@@ -24,6 +29,10 @@ echo "## Description" >> $readmefile
 echo  >> $readmefile
 echo  >> $readmefile
 echo  >> $readmefile
+echo "## Constraints" >> $readmefile
+echo  >> $readmefile
+echo  >> $readmefile
+echo  >> $readmefile
 echo "## Solution Thoughts" >> $readmefile
 echo  >> $readmefile
 echo "### Observations" >> $readmefile
@@ -36,8 +45,15 @@ echo "- **Time Complexity**" >> $readmefile
 echo  >> $readmefile
 echo "- **Space Complexity**" >> $readmefile
 echo  >> $readmefile
-echo "## Constraints" >> $readmefile
-echo  >> $readmefile
-echo  >> $readmefile
-echo  >> $readmefile
 echo "## Examples" >> $readmefile
+for ((i=1;i<=nExamples;i++)); do
+    echo  >> $readmefile
+    echo "### Example ${i}" >> $readmefile
+    echo  >> $readmefile
+    echo "> **Input**:" >> $readmefile
+    echo ">" >> $readmefile
+    echo "> **Output**:" >> $readmefile
+    echo ">" >> $readmefile
+    echo "> **Explanation**:" >> $readmefile
+    echo ">" >> $readmefile
+done
